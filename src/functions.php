@@ -28,7 +28,7 @@ add_action('admin_init', function() {
 
 // add api key for torque map
 add_filter( 'torque_map_api_key', function($k) {
-  return 'AIzaSyDPF2QsUSJKHsmGoPcjIgRySglSZgD-asA';
+  return 'AIzaSyBEeavlzM8g7uZeh9Ht5duVPy4G8WKuwPg';
 });
 // add allowed pois for theme
 add_filter( 'torque_map_pois_allowed', function($n) {
